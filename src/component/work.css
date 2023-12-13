@@ -1,0 +1,162 @@
+/* full screen size 
+
+width: 1300px;
+height: 550px; */
+
+@media (min-width:1024px) and (max-width:1439px) {
+
+    .the-story {
+        height: auto;
+        width: 100vw;
+        margin-left: 1px;
+        /* vertical-align: middle; */
+        border-style: none;
+
+    }
+
+    .mobile-screen {
+        border-radius: 20px;
+        margin-top: 1%;
+        margin-left: 45%;
+        position: absolute;
+        width: 228px;
+        height: 501px;
+        background-color: #d8d6c9;
+ 
+    }
+
+    .img-png {
+        width: 650px;
+        margin-top: -92px;
+        margin-left: -185px;
+        height: 662px;
+
+    }
+
+    .hello {
+        margin-left: 59px;
+        font-size: 44px;
+        margin-top: -369px;
+        font-family: "Syne", sans-serif;
+
+    }
+
+
+    .ok {
+        margin-top: -518px;
+
+    }
+
+
+    .description {
+        font-size: 13px;
+        margin-left: 3px;
+
+    }
+
+
+    .k {
+        margin-top: 74px;
+        font-size: 25px;
+        font-family: "Syne", sans-serif;
+        ;
+    }
+
+    #carouselExampleCaptions {
+        bottom: 114%;
+        height: 28rem;
+    }
+    .carousel-inner{
+        height: 100%;
+        /* border-radius: 25px;
+        background-color: cornflowerblue; */
+
+    }
+    .carousel-item img{
+        height: 28rem;
+    }
+
+    .c-1{
+        margin-top: 164px;
+        margin-left: 59px;
+    }
+
+    .c-2{
+        margin-top: 164px;
+        margin-left: 59px;
+    }
+
+    .c-3{
+        margin-top: 164px;
+        margin-left: 59px;
+    }
+
+    .homeScreen-one{
+        height: 100%;
+        background-color: aquamarine;
+        background-image: url("./Images/phonescreen.png");
+        border-radius: 25px;
+
+    }
+
+    .homeScreen-two{
+
+        height: 100%;
+        background-color: aquamarine;
+        background-image: url("./Images/home-2.png");
+        border-radius: 25px;
+
+
+    }
+
+
+    .homeScreen-three{
+        height: 100%;
+        background-color: aquamarine;
+        background-image: url("./Images/home-3.jpg");
+        border-radius: 25px;
+
+
+    }
+
+    .homeScreen-four{
+        height: 100%;
+        background-color: aquamarine;
+        background-image: url("./Images/home-4.jpg");
+        border-radius: 25px;
+
+    }
+
+    .homeScreen-five{
+        height: 100%;
+        background-color: aquamarine;
+        background-image: url("./Images/home-5.jpg");
+        border-radius: 25px;
+
+
+    }
+
+    .homeScreen-six{
+        height: 100%;
+        background-color: aquamarine;
+        border-radius: 25px;
+  
+
+    }
+    .para-lastscreen{
+        margin-top: 18px;
+        margin-left: -40px;
+        font-size: 14px;
+        font-family: "Syne", sans-serif;
+    }
+     
+
+
+
+    .carousel-control-prev-icon , .carousel-control-next-icon{
+        width: 50px;
+        height: 50px;
+    }
+                    
+
+}
