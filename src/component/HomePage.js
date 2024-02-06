@@ -5,9 +5,6 @@ import Sidebar from './Toogle';
 
 
 
-
-
-
 const HomePage = () => {
 
 
