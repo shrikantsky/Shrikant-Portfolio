@@ -20,19 +20,13 @@ import Work from './component/Work';
 function App() {
   return (
 
-    <BrowserRouter basename={window.location.pathname || ''}>
+    <BrowserRouter>
     <Routes>
       <Route path='/' element={<HomePage/>}></Route>
-
-    
 
       <Route path='/photo' element={<Project/>}></Route>
 
       <Route path='/work' element={<Work/>}/>
-
-  
-
-  
     </Routes>
     </BrowserRouter>
 
