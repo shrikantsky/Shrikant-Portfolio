@@ -26,7 +26,7 @@ function App() {
 
     
 
-      <Route path='/Photo' element={<Project/>}></Route>
+      <Route path='/photo' element={<Project/>}></Route>
 
       <Route path='/work' element={<Work/>}/>
 

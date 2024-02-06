@@ -62,12 +62,12 @@ function Sidebar() {
           </li>
 
           <li>
-          <a href="/Photo">
+          <Link to="/work">
               <i className='bx bx-log-out icon'></i>
               <span className="text nav-text">
               WORK
                </span>
-            </a>
+            </Link>
           </li>
 
           <li>
@@ -88,12 +88,14 @@ function Sidebar() {
             </a>
           </li>
         <li>
-          <a href="https://www.behance.net/shrikantyadav5">
+          
+              <Link to='/photo'>
               <i className='bx bx-log-out icon'></i>
               <span className="text nav-text">
               PHOTOGRAPHY
                </span>
-            </a>
+              </Link>
+            
           </li>
 
       
